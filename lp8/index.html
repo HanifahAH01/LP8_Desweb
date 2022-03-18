@@ -5,21 +5,30 @@
     </head>
     <body>
     
-    
-        <p id="demo">Selamat Datang!</p>
+
         <button type="button" onclick="myFunction()">input data</button>
-        <button type="button" onclick="mycolor()">change color</button>
+        <button type="button" onclick="mycolor()">Change color</button>
+        <button type="button" onclick="mycolor()">Undo Color</button>
+    
     <script>
         function myFunction(){
             var nama = prompt("Siapa nama kamu?", "");
             var nim = prompt("Berapa NIM kamu?", "");
             document.write("<p>Nama Mahasiswa " + nama + " dengan nim " + nim + "</p>");
     
-            var Alpro = prompt("Berapa index Algoritma Pemrograman kamu?", "");
+            var Alpro = prompt("Berapa nilai Algoritma Pemrograman kamu?", "");
             document.write("<p>Algoritma Pemrograman : " + Alpro + "</p>");
 
-            var ML = prompt("Berapa index machine learning kamu?", "");
-            document.write("<p>machine learning : " + ML + "</p>");
+            var ML = prompt("Berapa nilai Machine Learning kamu?", "");
+            document.write("<p>Machine Learning : " + ML + "</p>");
+
+            var Statistika = prompt("Berapa nilai Statistika kamu?", "");
+            document.write("<p>Satistika : " + Statistika + "</p>");
+
+            var Arsikom = prompt("Berapa nilai Arsitektur Komputer kamu?", "")
+            document.write("<p>Arsitektur Komputer : " + Arsikom + "</p>"); 
+
+
         }
     </script>
    
